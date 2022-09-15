@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    background-color: lightgreen;
+    align-items:center;
+}
+.input{
+    padding:6%;
+    width:10%;
+    height:6%;
+    margin-top:2px;
+} 
+.small{
+    height: 5vh;
+    width:5vw;
+    justify-content: center;
+    margin-top: 0%;
+    display: flex;
+}
+.card{
+    display:flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color:rgba(244, 145, 16, 0.991);
+    border: solid 10px;
+    margin-top: 5%;
+    margin-left:30%;
+    margin-bottom: 10%;
+    width:40vw;
+    height:175vh;
+    padding:10%;
+    flex-wrap:wrap;
+
+}
+.center{
+    width: 50vw;
+    height: 80vh;
+    align-items: center;
+    
+}
+h2{
+    font-weight:bold;
+    display:flex;
+    margin-bottom:3%;
+    margin-top:3%
+}
+.text{
+    display: flex;
+    flex-direction:column;
+    margin-bottom:6px;
+}
+label{
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:evenly;
+}
+.btnQuant{
+    border-radius:50px;
+    width:100%;
+    height:10%;
+    padding:5%;
+    margin-top:6%;
+    margin-bottom:6px;
+    cursor:pointer;
+    text-align:center;
+    
+
+}
+.btnBlack{
+    background-color:black;
+    color:white;
+    border-radius:50px;
+    width:100%;
+    height:10%;
+    padding:5%;
+    cursor:pointer;
+    text-align:center;
+    margin-top:6%;
+}
